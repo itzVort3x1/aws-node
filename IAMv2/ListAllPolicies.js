@@ -2,6 +2,7 @@ const AWS = require("aws-sdk");
 
 const iam = new AWS.IAM();
 
+// scope can be Local or AWS or ALL
 const params = {
 	Scope: "Local",
 };
