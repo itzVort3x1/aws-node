@@ -25,3 +25,5 @@ const run = async () => {
 		console.log("Error", err);
 	}
 };
+
+run();
