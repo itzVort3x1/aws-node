@@ -3,7 +3,7 @@ const { S3Client, CreateBucketCommand } = require("@aws-sdk/client-s3");
 const s3Client = new S3Client();
 
 const params = {
-	Bucket: "kaustubh10", // BUCKET_NAME
+	Bucket: "kaustubh11", // BUCKET_NAME
 	ACL: "private",
 };
 
