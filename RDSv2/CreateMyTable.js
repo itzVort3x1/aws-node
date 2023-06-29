@@ -1,10 +1,10 @@
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({
-	host: "kaustubhdb.candhndqc4uh.ap-south-1.rds.amazonaws.com",
+	host: "node-example.candhndqc4uh.ap-south-1.rds.amazonaws.com",
 	user: "admin",
 	password: "password",
-	database: "testdb",
+	database: "restapi",
 	port: 3306,
 });
 
